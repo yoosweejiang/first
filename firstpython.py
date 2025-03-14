@@ -14,14 +14,14 @@ input_text = st.text_area("请输入要翻译的文本", height=150)
 # 选择目标语言
 target_language = st.selectbox(
     "选择目标语言",
-    ["英语", "法语", "西班牙语", "中文"],
+    ["英语", "中文", "马来语", "粤语"],
     key="target_language"
 )
 
 # 选择翻译风格
 style = st.selectbox(
     "选择翻译风格",
-    ["正式", "非正式", "商务", "文学"],
+    ["日常", "科研", "商务", "文学"],
     key="style"
 )
 
